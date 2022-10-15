@@ -1,0 +1,51 @@
+{
+  "name": "panier",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://carmelo-cristal.github.io/mernstack",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.0",
+    "npm": "^8.19.2",
+    "react": "^18.2.0",
+    "react-country-region-selector": "^3.6.1",
+    "react-dom": "^18.2.0",
+    "react-horizontal-scroll-menu": "^0.0.3",
+    "react-horizontal-scrolling": "^0.1.13",
+    "react-horizontal-scrolling-menu": "^3.2.0",
+    "react-indiana-drag-scroll": "^3.0.0-alpha",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "5.0.1",
+    "react-scroll-horizontal": "^1.6.6",
+    "react-use-cart": "^1.13.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
